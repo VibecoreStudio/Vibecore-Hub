@@ -14,6 +14,12 @@ Vibecore Hub is a native, modular desktop toolbar for Windows. It stays as a com
 
 Lightweight, portable, and customizable. It brings your frequently used apps, files, folders, notes, and audio devices together in one polished little window.
 
+## Why I built Vibecore Hub
+
+It started with Windows Sticky Notes. As my notes accumulated, finding the right piece of text became increasingly difficult. At the same time, desktop shortcuts kept piling up, while the files and folders needed for daily workflows were always a few searches away—neither visual nor convenient, and constantly interrupting my train of thought.
+
+My computer also uses two audio interfaces for different purposes, making repeated input, output, and volume changes unnecessarily tedious. That led to the idea behind Vibecore Hub: a lightweight, polished, and modular desktop hub for shortcuts, notes, frequently used folders, and audio devices. Expand only what you need and complete common actions in a single step—so the tool adapts to your workflow, not the other way around.
+
 ## Current modules
 
 - Shortcut Library: apps, files, folders, text snippets, and shortcut groups
