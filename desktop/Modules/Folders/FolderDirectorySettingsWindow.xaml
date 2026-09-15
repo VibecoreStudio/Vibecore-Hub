@@ -1,0 +1,12 @@
+<Window x:Class="VibecoreHub.Desktop.Modules.Folders.FolderDirectorySettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Width="350" Height="255" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" Background="{DynamicResource RaisedBrush}">
+  <Border CornerRadius="14" BorderThickness="0" Padding="20">
+    <Grid>
+      <Grid.RowDefinitions><RowDefinition Height="44"/><RowDefinition/><RowDefinition Height="44"/></Grid.RowDefinitions>
+      <Grid Background="Transparent" MouseLeftButtonDown="Title_MouseLeftButtonDown"><TextBlock Text="文件夹目录设置" FontSize="17" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}"/><Button HorizontalAlignment="Right" Width="28" Height="28" Background="Transparent" BorderThickness="0" Foreground="{DynamicResource MutedBrush}" Click="Cancel_Click"><TextBlock FontFamily="Segoe Fluent Icons" Text="&#xE711;"/></Button></Grid>
+      <StackPanel Grid.Row="1" Margin="0,6,0,0"><TextBlock FontSize="11" Foreground="{DynamicResource MutedBrush}"><Run Text="每行按钮："/><Run x:Name="ColumnsValue"/></TextBlock><Slider x:Name="ColumnsSlider" Minimum="2" Maximum="3" TickFrequency="1" IsSnapToTickEnabled="True" Margin="0,8,0,18" ValueChanged="ColumnsSlider_ValueChanged"/><TextBlock FontSize="11" Foreground="{DynamicResource MutedBrush}"><Run Text="按钮高度："/><Run x:Name="HeightValue"/></TextBlock><Slider x:Name="HeightSlider" Minimum="34" Maximum="72" TickFrequency="2" IsSnapToTickEnabled="True" Margin="0,8,0,0" ValueChanged="HeightSlider_ValueChanged"/></StackPanel>
+      <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom"><Button Width="70" Height="34" Margin="0,0,8,0" Content="取消" Click="Cancel_Click"/><Button Width="70" Height="34" Content="保存" Background="{DynamicResource AccentBrush}" Foreground="{DynamicResource AccentTextBrush}" BorderThickness="0" Click="Save_Click"/></StackPanel>
+    </Grid>
+  </Border>
+</Window>

@@ -1,0 +1,30 @@
+<Window x:Class="VibecoreHub.Desktop.Modules.Audio.AudioPresetEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="音频预设" Width="430" Height="350" MinWidth="380" MinHeight="320"
+        WindowStyle="None" ResizeMode="CanResize" WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource RaisedBrush}" UseLayoutRounding="True" SnapsToDevicePixels="True">
+  <Border CornerRadius="14" BorderThickness="0" Padding="20">
+    <Grid>
+      <Grid.RowDefinitions><RowDefinition Height="44"/><RowDefinition/><RowDefinition Height="44"/></Grid.RowDefinitions>
+      <Grid Background="Transparent" MouseLeftButtonDown="Title_MouseLeftButtonDown">
+        <TextBlock x:Name="Heading" FontSize="17" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}"/>
+        <Button HorizontalAlignment="Right" Width="28" Height="28" Background="Transparent" BorderThickness="0" Foreground="{DynamicResource MutedBrush}" Click="Cancel_Click"><TextBlock FontFamily="Segoe Fluent Icons" Text="&#xE711;"/></Button>
+      </Grid>
+      <StackPanel Grid.Row="1" Margin="0,5,0,0">
+        <TextBlock Text="预设名称" FontSize="11" Foreground="{DynamicResource MutedBrush}" Margin="0,0,0,6"/>
+        <TextBox x:Name="NameBox" Height="34" Padding="9,0" VerticalContentAlignment="Center"/>
+        <TextBlock Text="输出设备（扬声器 / 耳机）" FontSize="11" Foreground="{DynamicResource MutedBrush}" Margin="0,14,0,6"/>
+        <ComboBox x:Name="OutputBox" Height="36" DisplayMemberPath="Name"/>
+        <TextBlock Text="输入设备（麦克风）" FontSize="11" Foreground="{DynamicResource MutedBrush}" Margin="0,14,0,6"/>
+        <ComboBox x:Name="InputBox" Height="36" DisplayMemberPath="Name"/>
+        <TextBlock x:Name="StatusText" FontSize="11" Foreground="{DynamicResource FaintBrush}" Margin="0,9,0,0" TextTrimming="CharacterEllipsis"/>
+      </StackPanel>
+      <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+        <Button Width="72" Height="34" Margin="0,0,8,0" Content="刷新设备" Click="Refresh_Click"/>
+        <Button Width="68" Height="34" Margin="0,0,8,0" Content="取消" Click="Cancel_Click"/>
+        <Button Width="68" Height="34" Content="保存" Background="{DynamicResource AccentBrush}" Foreground="{DynamicResource AccentTextBrush}" BorderThickness="0" FontWeight="SemiBold" Click="Save_Click"/>
+      </StackPanel>
+    </Grid>
+  </Border>
+</Window>

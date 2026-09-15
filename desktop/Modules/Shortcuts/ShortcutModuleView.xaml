@@ -1,0 +1,11 @@
+<UserControl x:Class="VibecoreHub.Desktop.Modules.Shortcuts.ShortcutModuleView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             AllowDrop="True" PreviewDragOver="ExternalFiles_PreviewDragOver" PreviewDrop="ExternalFiles_PreviewDrop"
+             UseLayoutRounding="True" SnapsToDevicePixels="True" TextOptions.TextFormattingMode="Display">
+  <Grid Margin="13,10,13,2">
+    <ScrollViewer VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Disabled" PanningMode="VerticalOnly">
+      <WrapPanel x:Name="TilesPanel" Orientation="Horizontal" AllowDrop="True" />
+    </ScrollViewer>
+  </Grid>
+</UserControl>
