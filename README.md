@@ -1,8 +1,12 @@
 # Vibecore Hub
 
+[中文](README.md) · [English](README_EN.md) · [日本語](README_JA.md)
+
 Vibecore Hub 是一款原生 Windows 模块化桌面工具栏。顶部小条常驻桌面，功能模块按需向下展开。
 
 > 当前版本：1.2.1 · Windows 10/11 · x64
+
+轻巧、便携且可自由组合。适合把常用程序、文件、目录、便笺和音频设备集中在一个漂亮的小窗口中。
 
 ## 当前模块
 
@@ -39,3 +43,13 @@ dotnet publish desktop\VibecoreHub.Desktop.csproj -c Release -r win-x64 --self-c
 ## 下载
 
 可在仓库的 [Releases](https://github.com/VibecoreStudio/Vibecore-Hub/releases) 页面下载绿色版。解压后直接运行 `VibecoreHub.exe` 即可。
+
+## 数据与隐私
+
+- 无需安装，设置和内容保存在程序旁的 `data` 文件夹
+- 不上传个人数据，换电脑时可连同整个文件夹一起复制
+- 不需要注册账号
+
+## 项目状态
+
+项目正在持续完善中，欢迎提交 Issue 分享问题、建议或新的轻量功能创意。
