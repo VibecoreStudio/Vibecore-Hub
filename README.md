@@ -4,6 +4,12 @@
 
 Vibecore Hub 是一款原生 Windows 模块化桌面工具栏。顶部小条常驻桌面，功能模块按需向下展开。
 
+<p align="center">
+  <img src="docs/images/vibecore-hub-dark.png" width="300" alt="Vibecore Hub 深色主题">
+  &nbsp;&nbsp;
+  <img src="docs/images/vibecore-hub-light.png" width="300" alt="Vibecore Hub 浅色主题">
+</p>
+
 > 当前版本：1.2.1 · Windows 10/11 · x64
 
 轻巧、便携且可自由组合。适合把常用程序、文件、目录、便笺和音频设备集中在一个漂亮的小窗口中。

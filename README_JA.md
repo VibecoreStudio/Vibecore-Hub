@@ -4,6 +4,12 @@
 
 Vibecore Hub は、Windows 向けのネイティブなモジュール式デスクトップツールバーです。普段は小さなバーとしてデスクトップに常駐し、必要な機能だけを下方向へ展開できます。
 
+<p align="center">
+  <img src="docs/images/vibecore-hub-dark.png" width="300" alt="Vibecore Hub ダークテーマ">
+  &nbsp;&nbsp;
+  <img src="docs/images/vibecore-hub-light.png" width="300" alt="Vibecore Hub ライトテーマ">
+</p>
+
 > 現在のバージョン：1.2.1 · Windows 10/11 · x64
 
 軽量・ポータブルで、自由にカスタマイズ可能。よく使うアプリ、ファイル、フォルダー、メモ、オーディオデバイスを、美しい小さなウィンドウにまとめられます。

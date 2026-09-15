@@ -4,6 +4,12 @@
 
 Vibecore Hub is a native, modular desktop toolbar for Windows. It stays as a compact bar on your desktop and expands only the modules you choose.
 
+<p align="center">
+  <img src="docs/images/vibecore-hub-dark.png" width="300" alt="Vibecore Hub dark theme">
+  &nbsp;&nbsp;
+  <img src="docs/images/vibecore-hub-light.png" width="300" alt="Vibecore Hub light theme">
+</p>
+
 > Current version: 1.2.1 · Windows 10/11 · x64
 
 Lightweight, portable, and customizable. It brings your frequently used apps, files, folders, notes, and audio devices together in one polished little window.
