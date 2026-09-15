@@ -14,6 +14,30 @@ Vibecore Hub is a native, modular desktop toolbar for Windows. It stays as a com
 
 Lightweight, portable, and customizable. It brings your frequently used apps, files, folders, notes, and audio devices together in one polished little window.
 
+> **Language status:** The v1.2.1 application interface is currently available in Simplified Chinese. English UI localization is planned for a future release.
+
+## Quick start
+
+> [!IMPORTANT]
+> ## Almost every feature and item supports right-click
+> **Right-click a top module icon for its settings.**
+>
+> **Right-click a shortcut, note, folder, or audio preset to edit, delete, or find more actions.**
+>
+> Remember to right-click and you already know most of Vibecore Hub.
+
+- Drag the Vibecore logo area to move the window; right-click it to open global settings
+- Drag the side borders to change the width; drag `···` below a module to change its height
+- Drop an app, file, folder, or Windows shortcut into the Shortcut Library to add it automatically
+- Drag shortcuts, notes, or folder cards to reorder them; the bright insertion line shows the destination
+- Use the pin button to toggle always-on-top; `×` hides the application to the system tray
+
+See the complete [Vibecore Hub User Guide](docs/USER_GUIDE_EN.md).
+
+## Localization roadmap
+
+The v1.2.1 application interface is currently in Simplified Chinese. **The next release will add an in-app language menu with one-click switching between Simplified Chinese, English, and Japanese.**
+
 ## Why I built Vibecore Hub
 
 It started with Windows Sticky Notes. As my notes accumulated, finding the right piece of text became increasingly difficult. At the same time, desktop shortcuts kept piling up, while the files and folders needed for daily workflows were always a few searches away—neither visual nor convenient, and constantly interrupting my train of thought.
