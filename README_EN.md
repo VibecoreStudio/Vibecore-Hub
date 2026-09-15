@@ -59,3 +59,9 @@ Portable builds will be available on the [Releases](https://github.com/VibecoreS
 ## Project status
 
 Vibecore Hub is under active development. Issues, suggestions, and ideas for useful lightweight modules are welcome.
+
+## License
+
+Copyright © 2026 VibecoreStudio
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE) (`GPL-3.0-only`). You may use, study, modify, and distribute it. Distributed modified or derivative versions must continue to provide the corresponding source code under GPLv3.

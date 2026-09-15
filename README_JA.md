@@ -59,3 +59,9 @@ dotnet publish desktop\VibecoreHub.Desktop.csproj -c Release -r win-x64 --self-c
 ## 開発状況
 
 Vibecore Hub は継続的に開発中です。不具合報告、提案、便利な軽量モジュールのアイデアを歓迎します。
+
+## ライセンス
+
+Copyright © 2026 VibecoreStudio
+
+本プロジェクトは [GNU General Public License v3.0](LICENSE)（`GPL-3.0-only`）の下で公開されています。利用、研究、改変、再配布が可能です。改変版または派生版を公開配布する場合は、GPLv3 に基づいて対応するソースコードとライセンスを提供する必要があります。

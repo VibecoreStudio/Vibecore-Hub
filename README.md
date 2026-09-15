@@ -59,3 +59,9 @@ dotnet publish desktop\VibecoreHub.Desktop.csproj -c Release -r win-x64 --self-c
 ## 项目状态
 
 项目正在持续完善中，欢迎提交 Issue 分享问题、建议或新的轻量功能创意。
+
+## 开源许可证
+
+Copyright © 2026 VibecoreStudio
+
+本项目采用 [GNU General Public License v3.0](LICENSE)（`GPL-3.0-only`）开源。你可以使用、研究、修改和分发本项目；如果公开分发修改版或衍生版，需要继续按照 GPLv3 提供对应源代码和许可证。

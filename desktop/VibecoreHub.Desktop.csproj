@@ -9,6 +9,10 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AssemblyName>Vibecore Hub</AssemblyName>
     <RootNamespace>VibecoreHub.Desktop</RootNamespace>
+    <Product>Vibecore Hub</Product>
+    <Company>VibecoreStudio</Company>
+    <Copyright>Copyright © 2026 VibecoreStudio</Copyright>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <DebugType>None</DebugType>
     <DebugSymbols>false</DebugSymbols>
     <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
